@@ -1,0 +1,62 @@
+.navbox {
+    display: flex;
+    position: absolute;
+    height: 6vh;
+    width: 100%;
+    background: black;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.name {
+    margin-left: 8%;
+    background: none;
+}
+.name h2 {
+    background: none;
+    color: white;
+}
+
+.nav {
+    background: none;
+    width: 40%;
+}
+.nav ul {
+    background: none;
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    justify-content: space-around;
+}
+.nav li {
+    background: none;
+}
+.nav a {
+    background: none;
+    text-decoration: none;
+    color: white;
+}
+.nav a:hover {
+    color: darkgray;
+}
+
+.butt {
+    margin-right: 8%;
+    background: none;
+}
+.butt button {
+    background: white;
+    color: black;
+    border: none;
+    cursor: pointer;
+    border-radius: 8px;
+    width: 50px;
+    height: 30px;
+    transition: 0.3s;
+}
+.butt button:hover {
+    background: rgb(68, 67, 67);
+    box-shadow: 0 0 0 5px rgb(144, 112, 185);
+    color: white;
+}
