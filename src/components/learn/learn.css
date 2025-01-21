@@ -1,0 +1,79 @@
+.content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.choice-box {
+    background: rgb(109, 106, 106) ;
+    margin-top: 5vh;
+    height: 100%;
+    width: 60%;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.subject-box {
+    background: rgb(109, 106, 106);
+    height: 20%;
+    width: 90%;
+    margin-bottom: 10vh;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+.subject {
+    height: 60%;
+    width: 25%;
+    background: rgb(128, 125, 134);
+    margin: 5px;
+    border-radius: 5px;
+    align-content: center;
+    justify-content: center;
+    text-align: center;
+    font: Rubik;
+    font-size: 30px;
+    cursor: pointer;
+}
+
+.question-amount {
+    background: rgb(109, 106, 106);
+    height: 20%;
+    width: 90%;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 6vh;
+}
+
+.start {
+    background: rgb(109, 106, 106);
+    height: 20%;
+    width: 90%;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+.start button {
+    background: rgb(128, 125, 134);
+    height: 60%;
+    width: 25%;
+    border-radius: 8px;
+    border-width: 0;
+    color: #000000;
+    cursor: pointer;
+    font: Rubik;
+    font-size: 30px;
+    text-align: center;
+}
+
+.selected {
+    border: 3px solid black;
+}

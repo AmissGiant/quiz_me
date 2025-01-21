@@ -1,3 +1,7 @@
+.pad {
+    padding-bottom: 6vh;
+}
+
 .navbox {
     display: flex;
     position: absolute;
@@ -16,6 +20,9 @@
 .name h2 {
     background: none;
     color: white;
+}
+.name h2:hover {
+    cursor: pointer;
 }
 
 .nav {
@@ -46,12 +53,12 @@
     background: none;
 }
 .butt button {
-    background: white;
+    background: rgb(98, 92, 110);
     color: black;
     border: none;
     cursor: pointer;
     border-radius: 8px;
-    width: 50px;
+    width: 60px;
     height: 30px;
     transition: 0.3s;
 }
